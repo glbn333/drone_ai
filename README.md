@@ -32,18 +32,17 @@ To set up and run the project, follow these steps:
 
 ## Project Structure
 
-```bash
-droneIA/
-│
-├── create_map.py        # Script to create and load the drone environment.
-├── agent.py             # Defines the agent's (drone's) behavior.
-├── main.py              # Main file to train the agent and run simulations.
-├── environments/        # Folder containing environment maps.
-├── results/             # Folder to store training results.
-├── videos/              # Folder containing demo videos of the drone training.
-├── requirements.txt     # Dependencies required for the project.
-└── README.md            # Project documentation.
-
+    
+    droneIA/
+    │
+    ├── create_map.py        # Script to create and load the drone environment.
+    ├── agent.py             # Defines the agent's (drone's) behavior.
+    ├── main.py              # Main file to train the agent and run simulations.
+    ├── environments/        # Folder containing environment maps.
+    ├── results/             # Folder to store training results.
+    ├── videos/              # Folder containing demo videos of the drone training.
+    ├── requirements.txt     # Dependencies required for the project.
+    └── README.md            # Project documentation.
 
 ## How It Works
 
@@ -69,4 +68,7 @@ You can find the detailed analysis and results in the `results/` folder.
 - **Training at iteration 1**: [0loop.mp4](path-to-file)
 - **After 1000 iterations with Q-Learning**: [qlearning1000loop.mp4](path-to-file)
 - **After 1000 iterations with Hybrid SARSA/Q-Learning**: [hybrid1000loop.mp4](path-to-file)
+
+
+
 
